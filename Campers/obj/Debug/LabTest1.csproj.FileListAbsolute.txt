@@ -1,0 +1,15 @@
+C:\wayne\Seneca\OLS655 WINTER 2016\Lab Test 1\reference\cs\LabTest1\LabTest1\bin\LabTest1.dll
+C:\wayne\Seneca\OLS655 WINTER 2016\Lab Test 1\reference\cs\LabTest1\LabTest1\bin\LabTest1.pdb
+C:\wayne\Seneca\OLS655 WINTER 2016\Lab Test 1\reference\cs\LabTest1\LabTest1\obj\Debug\LabTest1.csprojResolveAssemblyReference.cache
+C:\wayne\Seneca\OLS655 WINTER 2016\Lab Test 1\reference\cs\LabTest1\LabTest1\obj\Debug\LabTest1.dll
+C:\wayne\Seneca\OLS655 WINTER 2016\Lab Test 1\reference\cs\LabTest1\LabTest1\obj\Debug\LabTest1.pdb
+C:\wayne\Seneca\OLS655 WINTER 2016\Lab Test 1\reference\csB\LabTest1\LabTest1\bin\LabTest1.dll
+C:\wayne\Seneca\OLS655 WINTER 2016\Lab Test 1\reference\csB\LabTest1\LabTest1\bin\LabTest1.pdb
+C:\wayne\Seneca\OLS655 WINTER 2016\Lab Test 1\reference\csB\LabTest1\LabTest1\obj\Debug\LabTest1.csprojResolveAssemblyReference.cache
+C:\wayne\Seneca\OLS655 WINTER 2016\Lab Test 1\reference\csB\LabTest1\LabTest1\obj\Debug\LabTest1.dll
+C:\wayne\Seneca\OLS655 WINTER 2016\Lab Test 1\reference\csB\LabTest1\LabTest1\obj\Debug\LabTest1.pdb
+E:\SENECA\seneca usb\seneca\OLS655\lt1\LabTest1\LabTest1\LabTest1\bin\LabTest1.dll
+E:\SENECA\seneca usb\seneca\OLS655\lt1\LabTest1\LabTest1\LabTest1\bin\LabTest1.pdb
+E:\SENECA\seneca usb\seneca\OLS655\lt1\LabTest1\LabTest1\LabTest1\obj\Debug\LabTest1.csprojResolveAssemblyReference.cache
+E:\SENECA\seneca usb\seneca\OLS655\lt1\LabTest1\LabTest1\LabTest1\obj\Debug\LabTest1.dll
+E:\SENECA\seneca usb\seneca\OLS655\lt1\LabTest1\LabTest1\LabTest1\obj\Debug\LabTest1.pdb

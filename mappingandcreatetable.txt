@@ -1,0 +1,56 @@
+Mapping
+------------------------
+
+Camper
+Columns: camper_id, name, age, camp_id
+Not Null: camper_id, name, age
+Primary Key: camper_id
+Foreign Key #1: camp_id REFERENCES camp(camp_id)
+
+Camp
+Columns: camp_id, name
+Not Null: camp_id, name
+Primary Key: camp_id REFERENCES camp(camp_id)
+
+Activity
+Columns: camp_id, activity
+Not Null: camp_id
+Primary Key: camp_id, activity
+Foreign Key #1: camp_id REFERENCES camp(camp_id)
+
+--------------------------------------------------
+Create Statements
+
+CREATE TABLE camp
+(
+  camp_id NUMBER(2)
+    CONSTRAINT camp_camp_id_nn NOT NULL
+    CONSTRAINT camp_camp_id_pk PRIMARY KEY
+    CONSTRAINT camp_camp_id_cc CHECK (camp_id >0),
+  name VARCHAR2(20)
+    CONSTRAINT camp_name_nn NOT NULL
+);
+CREATE TABLE camper
+(
+  camper_id VARCHAR2(4)
+    CONSTRAINT camper_camper_id_nn NOT NULL
+    CONSTRAINT camper_camper_id_pk PRIMARY KEY,
+  name VARCHAR2(50)
+    CONSTRAINT camper_name_nn NOT NULL,
+  age NUMBER(3)
+    CONSTRAINT camper_age_nn NOT NULL
+    CONSTRAINT camper_age_cc CHECK (age >= 13),
+  camp_id NUMBER(2) UNIQUE
+    CONSTRAINT camper_camp_id_nn NOT NULL
+    CONSTRAINT camper_camp_id_fk REFERENCES camp(camp_id)
+);
+
+CREATE TABLE activities
+(
+  camp_id NUMBER(2)
+    CONSTRAINT activities_camp_id_nn NOT NULL
+    CONSTRAINT activities_camp_id_fk REFERENCES camp(camp_id),
+  activities VARCHAR2(25)
+    CONSTRAINT activities_activities_nn NOT NULL,
+    CONSTRAINT activities_camp_id_pk PRIMARY KEY (camp_id, activities)
+);
